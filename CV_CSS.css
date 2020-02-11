@@ -1,0 +1,314 @@
+*
+{
+    font-family: century gothic, calibri, comic sans ms;
+    font-size: 17px;
+    list-style-type: none;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, comic sans ms;
+    line-height: 50px;
+}
+
+h2
+{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+h3
+{
+    color: cadetblue;
+}
+
+h4
+{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: #19526F;
+    font-size: 28px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+header
+{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    background-image: url(img/entete.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+#enTete
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#intro
+{
+
+    margin-top: 50px;
+    color: white;
+    width: 29%;
+    margin-left: 85px; 
+}
+
+#contacts
+{
+    color: white;  
+    width: 25%;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+
+#contact
+{
+    font-size: 18px;
+    text-align: right;
+}
+
+#photo
+{
+    width: 300px;
+}
+
+.maPhoto
+{
+    width: 300px;
+    border-radius: 1000px;
+    border: 5px solid white;
+    margin: 20px 0px;
+}
+
+.titre
+{
+    font-weight: bold;
+}
+
+.sousTitre
+{
+    font-style: italic;
+    font font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0px 8px 1px 8px;
+}
+
+a:hover
+{
+    color: cadetblue;
+    border-bottom: 1px solid cadetblue;
+}
+
+#navigateur nav
+{
+    text-align: center;
+    width: 100%;
+    display: block;
+    border-top: 1px solid #FFF;
+    padding : 18px 0px;
+}
+
+#reconversion
+{
+    width : 100%;
+}
+#rec
+{
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#form
+{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#expe
+{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gauche
+{
+    text-align: right;
+    border-right: 1px solid gray;
+    padding-right: 20px;
+    width: 50%;
+    vertical-align: top;
+}
+
+.droite
+{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#centrerTitre
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.tableau
+{
+    text-align: top;
+}
+
+#formation
+{
+    display: flex;
+    display: block;
+    width : auto;
+    padding: 20px;
+}
+
+#experiencePro
+{
+    width : 100%;
+    padding: 20px;
+}
+
+#bonus
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bonus
+{
+    line-height: 30px;
+    text-align: center;
+}
+
+#competences
+{
+    width : 50%;
+    margin: 20px;
+
+}
+
+#comp
+{
+    width: 100%;
+}
+
+#col
+{
+    column-count: 3;
+    text-align: center;
+}
+
+.col
+{
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+#centresInteret
+{
+    width : 50%;
+    margin: 20px;
+    /*background-color: aliceblue;*/
+    border-radius: 15px;
+}
+
+#nav
+{
+    margin: 10px;
+
+}
+
+ul
+{
+    padding: 0;
+}
+
+.logo
+{
+    height: 30px;
+}
+
+.logoCont
+{
+    width: 22px;
+  
+@media only screen and (max-width: 1200px)
+{
+    
+    header
+    {
+        width: 100%;
+        height: auto;
+        flex-wrap: nowrap;
+        background-image: url(sciences.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.95;
+    }
+    #enTete
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #intro
+    {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #contacts
+    {
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .maPhoto
+    {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    #navigateur nav
+    {
+        text-align: center;
+        width: 100%;
+        display: block;
+        border-top: 1px solid #FFF;
+        padding : 18px 20px;
+    }
+}
+    
+
